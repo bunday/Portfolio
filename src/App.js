@@ -8,16 +8,7 @@ function App() {
     <div className="bg-black h-screen text-white flex px-32 overflow-y-auto">
       <div className="w-1/4 py-12 mr-4">
         <p className="text-4xl font-bold">
-          Hello, I'm <br />
-          <motion.p
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 1 }
-            }}
-            whileTap={{ scale: 0.9 }}
-          >
-            Full Name
-          </motion.p>
+          Hello there, I'm Zadat Olayinka 
         </p>
         <p> then the short story goes here bro then the short story goes here bro then the short story goes here bro</p>
 
@@ -69,8 +60,10 @@ function App() {
         </div>
       </div>
       <div className="w-3/4 py-12">
+        <p className="text-2xl text-gray-500 font-extrabold text-center">My Works <span role="img" aria-label="Developer">👨🏾‍💻</span></p>
+
         <div className="flex grid-cols-2">
-        <div className="bg-gray-900 px-4 py-3 my-4 mr-2 flex">
+        <div className="bg-gray-900 px-4 py-3 my-4 mr-2 flex rounded">
           <motion.div
             
             whileHover={{
@@ -79,7 +72,7 @@ function App() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src="/images/think.svg" className=" h-56" alt="think" />
+            <img src="/images/think.svg" className=" h-48" alt="think" />
           </motion.div>
           <div className="w-1/2 relative px-2">
             <p className="text-xl py-2 text-gray-200 font-bold">Project Title</p>
@@ -96,6 +89,7 @@ function App() {
             </div>
           </div>
         </div>
+        
         
         </div>
       </div>
