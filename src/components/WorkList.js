@@ -4,7 +4,6 @@ import Works from "../data";
 
 
 function WorkList () {
-    console.log(Works);
     function renderWorks() {
         return Works.map(work =>{ return <Work key={work.id} work={work}/> })
     }

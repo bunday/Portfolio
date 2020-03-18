@@ -3,6 +3,11 @@ import { motion } from "framer-motion";
 
 function Work(props) {
   const { work } = props;
+  function renderFrameworks() {
+      return work.tech.map(elem=> {
+          return <span key={elem} className="bg-gray-700 px-2 py-1 rounded-lg ml-0 m-1"> {elem} </span>
+      })
+  }
   return (
     <div className="bg-gray-800 m-2 flex flex-col rounded">
       <motion.div
@@ -23,10 +28,8 @@ function Work(props) {
         <p className="text-sm text-gray-500">{work.description}</p>
       </div>
       <div className="text-xs px-4 mt-auto  py-2">
-        <span className="bg-gray-700 px-2 py-1 rounded-lg ml-0 m-1">
-          Framework
-        </span>
-        <span className="bg-gray-700 px-2 py-1 rounded-lg m-1">Language</span>
+          { renderFrameworks()}
+        
       </div>
     </div>
   );
