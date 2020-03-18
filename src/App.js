@@ -2,8 +2,10 @@ import React from "react";
 import "./index.css";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
+import  Works  from './data';
 
 function App() {
+  console.log(Works);
   return (
     <div className="bg-black h-screen text-white flex px-32 overflow-y-auto">
       <div className="w-1/4 py-12 mr-4">
