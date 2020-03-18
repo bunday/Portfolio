@@ -1,8 +1,7 @@
 import React from "react";
 import "./index.css";
 import Footer from "./components/Footer";
-import Work from "./components/Work";
-import Works from "./data";
+import WorkList from "./components/WorkList";
 
 function App() {
   return (
@@ -30,7 +29,7 @@ function App() {
             >
               Laravel
             </a>, and I'm currently building
-            front-ends with {" "}
+            front-end with {" "}
             <a
               href="https://reactjs.org/"
               className="text-white "
@@ -82,9 +81,7 @@ function App() {
           </span>
         </p>
 
-        <div className="flex grid-cols-2">
-          <Work />
-        </div>
+        <WorkList/>
       </div>
       <div></div>
     </div>
