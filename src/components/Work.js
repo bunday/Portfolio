@@ -9,7 +9,7 @@ function Work(props) {
       })
   }
   return (
-    <div className="bg-gray-800 m-2 flex flex-col rounded">
+    <div className="bg-blacklight m-2 flex flex-col rounded">
       <motion.div
         whileHover={{
           scale: 1.1,

@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tint: '#949495'
+        tint: '#949495',
+        blacklight: '#211f1f'
       }
     },
     fontFamily: {

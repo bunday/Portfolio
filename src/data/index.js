@@ -34,26 +34,36 @@ const Works = [
   },
   {
     id: 4,
+    title: "Ticketing API Service",
+    description:
+      "This is an API service built for ticket management, IIt is a multi tenancy webservice which allows users create multiple events, ticket and ticket types, manage orders amongst others. API documentation was done with Swagger as well",
+    image:
+      "https://res.cloudinary.com/bundayy/image/upload/v1584533496/portfolio/Screen_Shot_2020-03-18_at_1.11.14_PM_utiqoi.png",
+    tech: ["Lumen", "Swagger"],
+    link: "https://api.ticketpro.tcore.xyz/"
+  },
+  {
+    id: 5,
     title: "Twitter History Fetcher",
     description:
       "This is my first personal project developed with React and deployed to Heroku for test purposes",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523123/portfolio/Screen_Shot_2020-03-16_at_12.10.39_PM_gxykif.png",
-    tech: ["React", "Twitter", "Tailwind", "heroku"],
+    tech: ["React", "Twitter", "Tailwind", "Heroku"],
     link: "https://simple-react-demo.herokuapp.com/twitter"
   },
   {
-    id: 5,
+    id: 6,
     title: "Aspom Portal",
     description:
       "This is a portal I developed with my former employer for a client which deals with travels. It handles all travel papers application process with more than 5 different roles on the app",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523262/portfolio/Screen_Shot_2020-03-18_at_10.20.54_AM_hlz4fo.png",
-    tech: ["Laravel", "Bootstrap"],
+    tech: ["Laravel", "Bootstrap", "Paystack"],
     link: "https://portal.aspom.com.ng"
   },
   {
-    id: 6,
+    id: 7,
     title: "Diagrammart Design System",
     description:
       "I developed a software solution used by an architectural business unit to collect orders of design system from users, get paid for theiir designs while they deliver to customers. Unfortunately this project after being used for a while is currently on hold for personal reasons",
@@ -63,17 +73,17 @@ const Works = [
     link: ""
   },
   {
-    id: 7,
+    id: 8,
     title: "Whot APP",
     description:
       "I worked with a friend to deliver a real time Whot Playing APP, this app works on both iOS and Android. The app involves playing with online users, while each player bets with an agreed amount. ",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523972/portfolio/whot_tw7csm.png",
-    tech: ["Ionic", "Firebase"],
+    tech: ["Ionic", "Firebase", "Paystack"],
     link: ""
   },
   {
-    id: 8,
+    id: 9,
     title: "Unibadan Post Graduate Recommendation Portal",
     description:
       "While in my finals in University of Ibadan in 2017, I worked on a project for the Post Graduate School, I built a system where prospective students are managed by the HOD, Supervisor, Lecturer etc before being assigned to a Supervisor for their Course of Study. It was a project built to scale, considering the number of applications the Univeristy gets annually.",
