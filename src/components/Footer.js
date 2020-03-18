@@ -11,7 +11,7 @@ function Footer() {
       />
       <div className="flex items-center px-4">
         <a
-          href="https://twitter.com/bundayyo"
+          href="https://www.linkedin.com/in/zadat-olayinka-317a98110/"
           className="flex items-center"
           target="_blank"
           rel="noopener noreferrer"
@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div className="flex items-center px-4">
         <a
-          href="https://twitter.com/bundayyo"
+          href="https://github.com/bunday"
           className="flex items-center"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,7 +32,7 @@ function Footer() {
       </div>
       <div className="flex items-center px-4">
         <a
-          href="https://twitter.com/bundayyo"
+          href="https://res.cloudinary.com/bundayy/image/upload/v1584532912/portfolio/Zadat_Olayinka_igamzs.pdf"
           className="flex items-center"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
       </div>
       <div className="flex items-center px-4">
         <a
-          href="https://twitter.com/bundayyo"
+          href="mailto:bundayy@outlook.com?subject=Hi 🙂, I have a Project I would like to work with you on"
           className="flex items-center"
           target="_blank"
           rel="noopener noreferrer"
