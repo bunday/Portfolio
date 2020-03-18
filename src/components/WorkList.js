@@ -9,7 +9,7 @@ function WorkList () {
         return Works.map(work =>{ return <Work key={work.id} work={work}/> })
     }
     return (
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           {renderWorks()}
         </div>
     );

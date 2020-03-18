@@ -5,8 +5,8 @@ import WorkList from "./components/WorkList";
 
 function App() {
   return (
-    <div className="bg-black h-screen text-white flex flex-col px-8 overflow-y-auto">
-      <div className=" py-12 mr-4">
+    <div className="bg-black h-screen text-white flex flex-col lg:flex-row px-8 xl:px-32 overflow-y-auto">
+      <div className="lg:w-1/4 py-12 mr-4">
         <p className="text-4xl font-bold">Hello there, I'm Zadat Olayinka</p>
         <div className="text-md text-tint leading-6">
           <p className="py-4">
@@ -73,7 +73,7 @@ function App() {
 
         <Footer />
       </div>
-      <div className=" py-12">
+      <div className="lg:w-3/4 py-12">
         <p className="text-2xl text-white font-extrabold text-center">
           My Works
           <span role="img" aria-label="Developer">
