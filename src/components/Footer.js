@@ -1,9 +1,9 @@
 import React from "react";
-import { FaExternalLinkAlt, FaLinkedinIn, FaTwitter, FaGithub, FaFileDownload } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub, FaFileDownload, FaEnvelope } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div className="bottom-0 absolute py-8 flex">
+    <div className="mt-auto flex justify-center">
       <img
         className="h-16 w-16 object-cover rounded-full"
         src="images/avatar.jpg"
@@ -16,8 +16,8 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter /> <span className="px-4"> Twitter</span>{" "}
-          <FaExternalLinkAlt />
+          <FaLinkedinIn /> 
+         
         </a>
       </div>
       <div className="flex items-center px-4">
@@ -27,8 +27,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedinIn /> <span className="px-4"> LinkedIn</span>{" "}
-          <FaExternalLinkAlt />
+          <FaGithub /> 
         </a>
       </div>
       <div className="flex items-center px-4">
@@ -38,8 +37,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub /> <span className="px-4"> GitHub</span>{" "}
-          <FaExternalLinkAlt />
+          <FaFileDownload /> 
         </a>
       </div>
       <div className="flex items-center px-4">
@@ -49,8 +47,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFileDownload /> <span className="px-4"> Resume</span>{" "}
-          <FaExternalLinkAlt />
+          <FaEnvelope /> 
         </a>
       </div>
     </div>
