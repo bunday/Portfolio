@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Work(props) {
   const { work } = props;
   return (
-    <div className="bg-gray-900 m-2 flex flex-col rounded">
+    <div className="bg-gray-800 m-2 flex flex-col rounded">
       <motion.div
         whileHover={{
           scale: 1.1,
