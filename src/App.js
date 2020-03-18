@@ -5,11 +5,11 @@ import WorkList from "./components/WorkList";
 
 function App() {
   return (
-    <div className="bg-black h-screen text-white flex flex-col lg:flex-row px-8 xl:px-32 overflow-y-auto">
-      <div className="lg:w-1/4 py-12 mr-4">
+    <div className="bg-black h-screen text-white flex flex-col lg:flex-row px-8 xl:px-32 overflow-y-auto lg:overflow-hidden">
+      <div className="lg:w-1/4 py-12 mr-4 flex flex-col">
         <p className="text-4xl font-bold">Hello there, I'm Zadat Olayinka</p>
-        <div className="text-md text-tint leading-6">
-          <p className="py-4">
+        <div className="text-md text-tint leading-6 lg:leading-5 xl:leading-6">
+          <p className="py-2">
             I'm a software engineer from Lagos, Nigeria. I do both front-end and
             back-end development, I've built a couple of mobile apps with {" "}
             <a
@@ -47,16 +47,16 @@ function App() {
               Tailwind CSS
             </a>.
           </p>
-          <p className="py-4">
+          <p className="py-2">
             I believe in utility-first CSS and I'm currently adopting test
             driven development work. I plan to share what I learn on my blog
             (coming up soon).
           </p>
-          <p className="py-4">
+          <p className="py-2">
             I hangout on Leetcode, HackerRank and Code Signal solving
             algorithm problems always trying to optimize speed and save space.
           </p>
-          <p className="py-4">
+          <p className="py-2">
             I'm available for contracts and remote roles. Want us to work
             together? You should <a
               href="mailto:bundayy@outlook.com?subject=Hi 🙂, I have a Project I would like to work with you on"
@@ -73,7 +73,7 @@ function App() {
 
         <Footer />
       </div>
-      <div className="lg:w-3/4 py-12">
+      <div className="lg:w-3/4 py-12 lg:overflow-y-auto">
         <p className="text-2xl text-white font-extrabold text-center">
           My Works
           <span role="img" aria-label="Developer">
