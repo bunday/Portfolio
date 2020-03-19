@@ -6,12 +6,13 @@ import WorkList from "./components/WorkList";
 function App() {
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap bg-blacklight p-6">
+      <nav className="flex items-center px-8 xl:px-32 justify-between flex-wrap bg-blacklight py-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          
-          <span className="font-semibold text-xl tracking-tight">Zadat Olayinka </span>
+          <span className="font-semibold text-xl tracking-tight">
+            Zadat Olayinka{" "}
+          </span>
         </div>
-        
+
         <div className="flex justify-between block lg:flex lg:items-center lg:w-auto">
           <div className="text-sm lg:flex-grow">
             <a
@@ -26,7 +27,6 @@ function App() {
             >
               My Works
             </a>
-            
           </div>
         </div>
       </nav>
@@ -35,17 +35,13 @@ function App() {
           <p className="text-4xl font-bold">Hello there, I'm Zadat Olayinka</p>
           <div className="text-md text-tint leading-6 lg:leading-5 xl:leading-6">
             <p className="py-2">
-              I'm a software engineer from Lagos, Nigeria. I do both front-end
-              and back-end development, I've built a couple of mobile apps with{" "}
-              <a
-                href="https://ionicframework.com/"
-                className="text-white "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ionic
-              </a>
-              . I do back-end work with mostly{" "}
+              I'm a software engineer from Lagos, Nigeria with over five years
+              worth of experience deploying scalable solutions for a wide range
+              of sectors including fintech, education, gaming, ticketting and e-commerce.
+              </p>
+            <p className="py-2">
+              I am also adept at working with various languages and frameworks including
+              {" "}
               <a
                 href="https://laravel.com/"
                 className="text-white "
@@ -54,7 +50,25 @@ function App() {
               >
                 Laravel
               </a>
-              , and I'm currently building front-end with{" "}
+              , {" "}
+              <a
+                href="https://spring.io/projects/spring-boot"
+                className="text-white "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Spring Boot
+              </a>
+              , {" "}
+              <a
+                href="https://ionicframework.com/"
+                className="text-white "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ionic
+              </a>
+              , {" "}
               <a
                 href="https://reactjs.org/"
                 className="text-white "
@@ -72,20 +86,17 @@ function App() {
               >
                 Tailwind CSS
               </a>
-              .
+              ,  using them for build mobile applications, back-end development and front-end development respectively. 
             </p>
             <p className="py-2">
-              I believe in utility-first CSS and I'm currently adopting test
-              driven development work. I plan to share what I learn on my blog
-              (coming up soon).
+            I believe in utility-first CSS and I'm currently adopting test driven development in my work. I'm also focused on sharing my experiences with younger developers, fostering their growth and propelling their learning process and ultimately their careers. I plan to share these experiences on my forthcoming blog
             </p>
             <p className="py-2">
-              I hangout on Leetcode, HackerRank and Code Signal solving
-              algorithm problems always trying to optimize speed and save space.
+            I hangout on Leetcode, HackerRank and Code Signal solving algorithmic problems always trying to optimize speed and save space. 
             </p>
             <p className="py-2">
-              I'm available for contracts and remote roles. Want us to work
-              together? You should{" "}
+            I'm available for contract jobs and remote positions as I am focused on bringing my experience and diverse knowledge to help build more scalable platforms.
+            Want us to work together? You should{" "}
               <a
                 href="mailto:bundayy@outlook.com?subject=Hi 🙂, I have a Project I would like to work with you on"
                 className="text-white "
