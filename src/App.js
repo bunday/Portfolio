@@ -30,7 +30,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div className="bg-black h-screen text-white flex flex-col lg:flex-row px-8 xl:px-32 overflow-y-auto lg:overflow-hidden">
+      <div className="bg-black h-screen text-white lg:flex lg:flex-row px-8 xl:px-32 overflow-y-auto lg:overflow-hidden">
         <div id="bio" className="lg:w-1/4 py-12 mr-4 flex flex-col">
           <p className="text-4xl font-bold">Hello there, I'm Zadat Olayinka</p>
           <div className="text-md text-tint leading-6 lg:leading-5 xl:leading-6">
