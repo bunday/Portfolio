@@ -9,7 +9,9 @@ function Work(props) {
       })
   }
   return (
-    <div className="bg-blacklight m-2 flex flex-col rounded">
+    <a target="_blank"
+    rel="noopener noreferrer" 
+    href={work.link} className="bg-blacklight m-2 flex flex-col rounded">
       <motion.div
         whileHover={{
           scale: 1.1,
@@ -31,7 +33,7 @@ function Work(props) {
           { renderFrameworks()}
         
       </div>
-    </div>
+    </a>
   );
 }
 

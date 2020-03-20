@@ -46,7 +46,7 @@ const Works = [
     id: 5,
     title: "Twitter History Fetcher",
     description:
-      "This is my first personal project developed with React and deployed to Heroku for test purposes",
+      "This app uses the twitter api to fetch tweets related to specified twitter accounts in the stipulated dates. Source code is hosted publicily on GitHub for research purposes. It was the first personal project developed with React.",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523123/portfolio/Screen_Shot_2020-03-16_at_12.10.39_PM_gxykif.png",
     tech: ["React", "Twitter", "Tailwind", "Heroku"],
@@ -70,7 +70,7 @@ const Works = [
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523418/portfolio/Screen_Shot_2020-03-18_at_10.23.25_AM_w9coej.png",
     tech: ["Laravel", "Bootstrap", "Paystack"],
-    link: ""
+    link: "http://intrepid.tcore.xyz/login"
   },
   {
     id: 8,
@@ -79,8 +79,8 @@ const Works = [
       "I worked with a friend to deliver a real time Whot Playing APP, this app works on both iOS and Android. The app involves playing with online users, while each player bets with an agreed amount. ",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523972/portfolio/whot_tw7csm.png",
-    tech: ["Ionic", "Firebase", "Paystack"],
-    link: ""
+    tech: ["Ionic", "cordova", "Firebase", "Paystack"],
+    link: "https://play.google.com/store/apps/details?id=com.wavyscript.whotapp"
   },
   {
     id: 9,
