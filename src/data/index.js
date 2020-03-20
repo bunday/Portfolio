@@ -46,14 +46,24 @@ const Works = [
     id: 5,
     title: "Twitter History Fetcher",
     description:
-      "This app uses the twitter api to fetch tweets related to specified twitter accounts in the stipulated dates. Source code is hosted publicily on GitHub for research purposes. It was the first personal project developed with React.",
+      "This app uses the Twitter API to fetch tweets related to specified twitter accounts in the stipulated dates. Source code is hosted publicily on GitHub for research purposes. It was the first personal project developed with React.",
     image:
       "https://res.cloudinary.com/bundayy/image/upload/v1584523123/portfolio/Screen_Shot_2020-03-16_at_12.10.39_PM_gxykif.png",
     tech: ["React", "Twitter", "Tailwind", "Heroku"],
     link: "https://simple-react-demo.herokuapp.com/twitter"
   },
   {
-    id: 6,
+    id: 5,
+    title: "Zadat Olayinka's Portfolio",
+    description:
+      "This app holds a summary about me, projects I've done and how you can contact me if you want us to work together soon. It is a work in progress, which gets updated over time. ",
+    image:
+      "https://res.cloudinary.com/bundayy/image/upload/v1584711378/portfolio/Screen_Shot_2020-03-20_at_2.35.56_PM_evzvsz.png",
+    tech: ["React", "Twitter", "Tailwind", "Netlify"],
+    link: "https://zadatolayinka.dev/"
+  },
+  {
+    id: 7,
     title: "Aspom Portal",
     description:
       "This is a portal I developed with my former employer for a client which deals with travels. It handles all travel papers application process with more than 5 different roles on the app",
@@ -63,7 +73,7 @@ const Works = [
     link: "https://portal.aspom.com.ng"
   },
   {
-    id: 7,
+    id: 8,
     title: "Diagrammart Design System",
     description:
       "I developed a software solution used by an architectural business unit to collect orders of design system from users, get paid for theiir designs while they deliver to customers. Unfortunately this project after being used for a while is currently on hold for personal reasons",
@@ -73,7 +83,7 @@ const Works = [
     link: "http://intrepid.tcore.xyz/login"
   },
   {
-    id: 8,
+    id: 9,
     title: "Whot APP",
     description:
       "I worked with a friend to deliver a real time Whot Playing APP, this app works on both iOS and Android. The app involves playing with online users, while each player bets with an agreed amount. ",
@@ -83,7 +93,7 @@ const Works = [
     link: "https://play.google.com/store/apps/details?id=com.wavyscript.whotapp"
   },
   {
-    id: 9,
+    id: 10,
     title: "Unibadan Post Graduate Recommendation Portal",
     description:
       "While in my finals in University of Ibadan in 2017, I worked on a project for the Post Graduate School, I built a system where prospective students are managed by the HOD, Supervisor, Lecturer etc before being assigned to a Supervisor for their Course of Study. It was a project built to scale, considering the number of applications the Univeristy gets annually.",
