@@ -1,6 +1,12 @@
-This project was contains my [Portfolio Website](https://github.com/facebook/create-react-app).
+This project was contains my [Portfolio Website](https://zadatolayinka.dev/).
 
-## Starting Up
+### Stack Used
+- React
+- Tailwind Css
+- Netlify
+- Cloudinary
+
+## Runnuing Locally
 
 In the project directory, you can run:
 
