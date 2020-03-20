@@ -37,7 +37,7 @@ function App() {
             <p className="py-2">
               I'm a software engineer from Lagos, Nigeria with over five years
               worth of experience deploying scalable solutions for a wide range
-              of sectors including fintech, education, gaming, ticketting and e-commerce.
+              of sectors including fintech, education, gaming, ticketing and e-commerce.
               </p>
             <p className="py-2">
               I am also adept at working with various languages and frameworks including
