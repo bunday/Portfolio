@@ -37,11 +37,17 @@ function App() {
             <p className="py-2">
               I'm a software engineer from Lagos, Nigeria with over five years
               worth of experience deploying scalable solutions for a wide range
-              of sectors including fintech, education, gaming, ticketing and e-commerce.
-              </p>
+              of sectors including fintech, education, gaming, ticketing and
+              e-commerce.
+            </p>
             <p className="py-2">
-              I am also adept at working with various languages and frameworks including
-              {" "}
+              I'm currently living in the UK studying for my masters in Advanced
+              Computer Science with a focus on Machine Learning and Artificial
+              Intelligence
+            </p>
+            <p className="py-2">
+              I am adept at working with various languages and frameworks
+              including{" "}
               <a
                 href="https://laravel.com/"
                 className="text-white "
@@ -50,7 +56,16 @@ function App() {
               >
                 Laravel
               </a>
-              , {" "}
+              ,{" "}
+              <a
+                href="https://reactjs.org/"
+                className="text-white "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                React.js
+              </a>
+              ,{" "}
               <a
                 href="https://spring.io/projects/spring-boot"
                 className="text-white "
@@ -59,7 +74,7 @@ function App() {
               >
                 Spring Boot
               </a>
-              , {" "}
+              ,{" "}
               <a
                 href="https://ionicframework.com/"
                 className="text-white "
@@ -67,15 +82,6 @@ function App() {
                 rel="noopener noreferrer"
               >
                 Ionic
-              </a>
-              , {" "}
-              <a
-                href="https://reactjs.org/"
-                className="text-white "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React.js
               </a>{" "}
               and{" "}
               <a
@@ -86,17 +92,26 @@ function App() {
               >
                 Tailwind CSS
               </a>
-              ,  using them for build mobile applications, back-end development and front-end development respectively. 
+              , using them for build mobile applications, back-end development
+              and front-end development.
             </p>
             <p className="py-2">
-            I believe in utility-first CSS and I'm currently adopting test driven development in my work. I'm also focused on sharing my experiences with younger developers, fostering their growth and propelling their learning process and ultimately their careers. I plan to share these experiences on my forthcoming blog
+              I believe in utility-first CSS and I'm currently adopting test
+              driven development in my work. I'm also focused on sharing my
+              experiences with younger developers, fostering their growth and
+              propelling their learning process and ultimately their careers. I
+              plan to share these experiences on my forthcoming blog
             </p>
             <p className="py-2">
-            I hangout on Leetcode, HackerRank and Code Signal solving algorithmic problems always trying to optimize speed and save space. 
+              I hangout on Leetcode, HackerRank and Code Signal solving
+              algorithmic problems always trying to optimize speed and save
+              space.
             </p>
             <p className="py-2">
-            I'm available for contract jobs and remote positions as I am focused on bringing my experience and diverse knowledge to help build more scalable platforms.
-            Want us to work together? You should{" "}
+              I'm available for contract jobs and remote positions as I am
+              focused on bringing my experience and diverse knowledge to help
+              build more scalable platforms. Want us to work together? You
+              should{" "}
               <a
                 href="mailto:bundayy@outlook.com?subject=Hi 🙂, I have a Project I would like to work with you on"
                 className="text-white "
