@@ -35,15 +35,10 @@ function App() {
           <p className="text-4xl font-bold">Hello there, I'm Zadat Olayinka</p>
           <div className="text-md text-tint leading-6 lg:leading-5 xl:leading-6">
             <p className="py-2">
-              I'm a software engineer from Lagos, Nigeria with over five years
+              I'm a software engineer living in the UK with over five years
               worth of experience deploying scalable solutions for a wide range
               of sectors including fintech, education, gaming, ticketing and
               e-commerce.
-            </p>
-            <p className="py-2">
-              I'm currently living in the UK studying for my masters in Advanced
-              Computer Science with a focus on Machine Learning and Artificial
-              Intelligence
             </p>
             <p className="py-2">
               I am adept at working with various languages and frameworks
@@ -55,6 +50,15 @@ function App() {
                 rel="noopener noreferrer"
               >
                 Laravel
+              </a>
+              ,{" "}
+              <a
+                href="https://nodejs.org/"
+                className="text-white "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NodeJS
               </a>
               ,{" "}
               <a
@@ -97,13 +101,14 @@ function App() {
             </p>
             <p className="py-2">
               I believe in utility-first CSS and I'm currently adopting test
-              driven development in my work. I'm also focused on sharing my
+              driven development in my works. Ive worked with a couple of CI/CD system 
+              and I enjoy building automations into my work. I'm also focused on sharing my
               experiences with younger developers, fostering their growth and
               propelling their learning process and ultimately their careers. I
               plan to share these experiences on my forthcoming blog
             </p>
             <p className="py-2">
-              I hangout on Leetcode, HackerRank and Code Signal solving
+              I have an intermediate understanding of data structures and algorithms, hence I hangout on Leetcode, HackerRank and Code Signal solving
               algorithmic problems always trying to optimize speed and save
               space.
             </p>

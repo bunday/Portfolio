@@ -32,7 +32,7 @@ function Footer() {
       </div>
       <div className="flex items-center px-4">
         <a
-          href="https://res.cloudinary.com/bundayy/image/upload/v1584532912/portfolio/Zadat_Olayinka_igamzs.pdf"
+          href="https://res.cloudinary.com/bundayy/image/upload/v1657463608/portfolio/Zadat_Olayinka_UK_2022_b0ci0r.pdf"
           className="flex items-center"
           target="_blank"
           rel="noopener noreferrer"
