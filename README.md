@@ -4,6 +4,7 @@ Personal site: [zadatolayinka.dev](https://zadatolayinka.dev/).
 
 ## Stack
 
+- Bun (package manager and script runner)
 - React 19 + Vite
 - Tailwind CSS v4 (configured in `src/styles.css`, not a JS config file)
 - Newsreader + IBM Plex Mono, served from Google Fonts
@@ -12,11 +13,14 @@ Personal site: [zadatolayinka.dev](https://zadatolayinka.dev/).
 ## Running locally
 
 ```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # outputs to dist/
-npm run preview  # serve the production build
+bun install
+bun run dev      # http://localhost:5173
+bun run build    # outputs to dist/
+bun run preview  # serve the production build
 ```
+
+Bun is the package manager here. There is no `package-lock.json`; `bun.lock`
+is the only lockfile and Netlify builds with `bun run build`.
 
 ## What this site is (and isn't)
 
@@ -25,7 +29,8 @@ breakdowns, no borrowed metrics. Those belong in the PDF. The site covers what
 gets built, how it gets shipped, what working with AI has actually taught, and
 who gets taught in return.
 
-Sections: `intro` → `building` → `shipping` → `ai` → `teaching` → contact.
+Sections: `intro` → `building` → `shipping` → `ai` → `teaching` → `otherwise`
+→ contact.
 
 ## Editing content
 
