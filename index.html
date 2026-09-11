@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Zadat Olayinka · Software Engineer</title>
+    <meta
+      name="description"
+      content="Software engineer in Liverpool, UK. I build products and put them in front of people: five live, eight self-hosted services, built solo. Notes on shipping, working with AI, and teaching."
+    />
+    <link rel="canonical" href="https://zadatolayinka.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zadatolayinka.dev/" />
+    <meta property="og:title" content="Zadat Olayinka · Software Engineer" />
+    <meta
+      property="og:description"
+      content="I build products and put them in front of people. Five live products. Eight self-hosted services. Built solo."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/bundayy/image/upload/v1584540188/portfolio/Zadat_Olayinka_mtp1m3.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)" />
+
+    <!-- Set the theme before first paint so dark mode never flashes. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var dark =
+            saved === "dark" ||
+            (!saved &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

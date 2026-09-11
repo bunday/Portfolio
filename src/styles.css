@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* Toggle-driven dark mode rather than media-query-only, so the switch works. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --paper: #f7f4ee;
+  --paper-sunk: #f1ede4;
+  --ink: #17150f;
+  --muted: #6f6a5e;
+  --faint: #9a9488;
+  --rule: #ddd6c6;
+  --accent: #9c3d1e;
+}
+
+.dark {
+  --paper: #121110;
+  --paper-sunk: #191715;
+  --ink: #eae5db;
+  --muted: #948d80;
+  --faint: #6a655c;
+  --rule: #2c2924;
+  --accent: #d9743f;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-sunk: var(--paper-sunk);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+
+  --font-serif: "Newsreader", Iowan Old Style, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Keep anchored sections clear of the sticky masthead. */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Small caps mono label, used for every section heading and field name. */
+@utility label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+/* Figures line up in columns; the browser default does not guarantee this. */
+@utility nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
