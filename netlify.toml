@@ -4,6 +4,10 @@
 
 [build.environment]
   BUN_VERSION = "1.3.5"
+  # Bun installs and runs the script, but vite's bin has a `#!/usr/bin/env node`
+  # shebang, so Node executes the build. Vite 7 needs ^20.19 || >=22.12, and
+  # Netlify otherwise falls back to a default old enough to fail on ESM syntax.
+  NODE_VERSION = "22"
 
 # SPA-style fallback so deep links and refreshes resolve.
 [[redirects]]
